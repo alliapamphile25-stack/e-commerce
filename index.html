@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allias Store — Mode & Accessoires Tendance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ANNONCE BARRE -->
+  <div class="topbar">
+    <span><i class="ti ti-truck-delivery"></i> Livraison gratuite dès 80€</span>
+    <span><i class="ti ti-refresh"></i> Retours sous 30 jours</span>
+    <span><i class="ti ti-lock"></i> Paiement 100% sécurisé</span>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">Allias<span>Store</span></div>
+    <ul class="nav-links">
+      <li><a href="#">Nouveautés</a></li>
+      <li><a href="#">Femme</a></li>
+      <li><a href="#">Homme</a></li>
+      <li><a href="#">Accessoires</a></li>
+      <li><a href="#" class="sale">Soldes</a></li>
+    </ul>
+    <div class="nav-icons">
+      <i class="ti ti-search"></i>
+      <i class="ti ti-heart"></i>
+      <span class="cart-icon"><i class="ti ti-shopping-bag"></i><span class="cart-badge">2</span></span>
+      <div class="avatar">AP</div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="tag">Nouvelle saison</span>
+      <h1>Affirmez votre style<br>avec nos dernières<br>tendances</h1>
+      <p>Découvrez une sélection de vêtements et d'accessoires qui allient élégance et confort, pour toutes les occasions.</p>
+      <div class="hero-cta">
+        <a href="#collections" class="btn-primary">Explorer la collection</a>
+        <a href="#" class="btn-secondary">Voir les lookbooks</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>12K+</strong><span>clients satisfaits</span></div>
+        <div class="divider"></div>
+        <div class="stat"><strong>850+</strong><span>références</span></div>
+        <div class="divider"></div>
+        <div class="stat"><strong>4.8/5</strong><span>note moyenne</span></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-img-card">
+        <i class="ti ti-hanger hero-icon"></i>
+        <div class="hero-img-overlay"></div>
+      </div>
+      <div class="hero-product-badge">
+        <div class="badge-name">Veste tendance</div>
+        <div class="badge-price">89,90€</div>
+      </div>
+      <div class="hero-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOUVELLES COLLECTIONS -->
+  <section class="section" id="collections">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Nouvelles collections</h2>
+        <p class="section-sub">Les pièces phares de cette saison, sélectionnées pour vous</p>
+      </div>
+      <a href="#" class="btn-outline">Voir tout <i class="ti ti-arrow-right"></i></a>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-img brown">
+          <i class="ti ti-shirt"></i>
+          <span class="product-badge new">Nouveau</span>
+        </div>
+        <div class="product-info">
+          <div class="product-date">Mardi, 18 mars</div>
+          <div class="product-name">Blazer Caramel — Femme</div>
+          <div class="product-footer">
+            <span class="product-price">109,90€</span>
+            <button class="btn-add">Ajouter</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img blue">
+          <i class="ti ti-jacket"></i>
+          <span class="product-badge trend">Tendance</span>
+        </div>
+        <div class="product-info">
+          <div class="product-date">Mercredi, 19 mars</div>
+          <div class="product-name">Ensemble Jean Denim</div>
+          <div class="product-footer">
+            <span class="product-price">89,90€</span>
+            <button class="btn-add">Ajouter</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img amber">
+          <i class="ti ti-coat"></i>
+          <span class="product-badge best">Bestseller</span>
+        </div>
+        <div class="product-info">
+          <div class="product-date">Mercredi, 19 mars</div>
+          <div class="product-name">Manteau Long Camel</div>
+          <div class="product-footer">
+            <span class="product-price">159,90€</span>
+            <button class="btn-add">Ajouter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section section-bg" id="categories">
+    <h2 class="section-title centered">Nos catégories</h2>
+    <p class="section-sub centered">Explorez notre univers de mode</p>
+    <div class="categories-grid">
+      <div class="category-card">
+        <i class="ti ti-dress"></i>
+        <div class="cat-name">Femme</div>
+        <div class="cat-count">320 articles</div>
+      </div>
+      <div class="category-card">
+        <i class="ti ti-shirt"></i>
+        <div class="cat-name">Homme</div>
+        <div class="cat-count">210 articles</div>
+      </div>
+      <div class="category-card">
+        <i class="ti ti-sunglasses"></i>
+        <div class="cat-name">Accessoires</div>
+        <div class="cat-count">180 articles</div>
+      </div>
+      <div class="category-card">
+        <i class="ti ti-shoe"></i>
+        <div class="cat-name">Chaussures</div>
+        <div class="cat-count">140 articles</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVANTAGES -->
+  <section class="section" id="avantages">
+    <h2 class="section-title centered">Pourquoi Allias Store ?</h2>
+    <p class="section-sub centered">Des engagements forts pour une expérience d'achat irréprochable</p>
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon"><i class="ti ti-truck-delivery"></i></div>
+        <h3>Livraison rapide</h3>
+        <p>Commandez avant 16h, recevez votre colis sous 48h ouvrées.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="ti ti-refresh"></i></div>
+        <h3>Retours offerts</h3>
+        <p>30 jours pour changer d'avis, sans frais ni justification.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="ti ti-shield-check"></i></div>
+        <h3>Paiement sécurisé</h3>
+        <p>Données cryptées, 3D Secure, CB, PayPal et virement.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="ti ti-headset"></i></div>
+        <h3>Service client 7j/7</h3>
+        <p>Une équipe disponible par chat, email ou téléphone à toute heure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMOIGNAGES -->
+  <section class="section section-bg" id="avis">
+    <h2 class="section-title centered">Ce que disent nos clients</h2>
+    <p class="section-sub centered">Plus de 12 000 avis vérifiés sur notre boutique</p>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i>
+        </div>
+        <p>"La qualité des tissus est bluffante pour ce prix. Mon blazer est arrivé impeccablement emballé et taille parfaitement. Je recommande vivement Allias Store !"</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#c9a96e">SM</div>
+          <div>
+            <div class="reviewer-name">Sophie M.</div>
+            <div class="reviewer-loc">Paris — achat vérifié</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star"></i>
+        </div>
+        <p>"Livraison en 24h, service client réactif et produits conformes aux photos. Le manteau camel est magnifique, je l'ai déjà porté plusieurs fois cette semaine."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#3c3489">KD</div>
+          <div>
+            <div class="reviewer-name">Karim D.</div>
+            <div class="reviewer-loc">Lyon — achat vérifié</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i>
+        </div>
+        <p>"Je cherchais une boutique en ligne fiable pour renouveler ma garde-robe. Allias Store m'a conquise : choix immense, prix justes et style ultra tendance."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#0f6e56">NB</div>
+          <div>
+            <div class="reviewer-name">Nadia B.</div>
+            <div class="reviewer-loc">Bordeaux — achat vérifié</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER CTA -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <div class="newsletter-label">Rejoignez la communauté</div>
+      <h2>Inscrivez-vous et profitez de<br>-15% sur votre première commande</h2>
+      <p>Recevez en avant-première nos nouvelles collections, ventes privées et conseils style.</p>
+      <form class="newsletter-form" onsubmit="return false">
+        <input type="email" placeholder="votre@email.fr" required />
+        <button type="submit">Je m'inscris</button>
+      </form>
+      <small>Pas de spam. Désabonnement en un clic.</small>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Allias<span>Store</span></div>
+        <p>La boutique de référence pour une mode tendance et accessible. Des pièces sélectionnées avec soin pour exprimer votre style au quotidien.</p>
+        <div class="socials">
+          <i class="ti ti-brand-instagram" aria-label="Instagram"></i>
+          <i class="ti ti-brand-tiktok" aria-label="TikTok"></i>
+          <i class="ti ti-brand-facebook" aria-label="Facebook"></i>
+          <i class="ti ti-brand-pinterest" aria-label="Pinterest"></i>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Boutique</h4>
+        <a href="#">Nouveautés</a>
+        <a href="#">Femme</a>
+        <a href="#">Homme</a>
+        <a href="#">Accessoires</a>
+        <a href="#">Soldes</a>
+      </div>
+      <div class="footer-col">
+        <h4>Aide</h4>
+        <a href="#">Suivi de commande</a>
+        <a href="#">Livraison & retours</a>
+        <a href="#">Guide des tailles</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Entreprise</h4>
+        <a href="#">À propos</a>
+        <a href="#">Nos engagements</a>
+        <a href="#">Affiliés & presse</a>
+        <a href="#">Recrutement</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Allias Store — Tous droits réservés</span>
+      <div class="footer-legal">
+        <a href="#">Mentions légales</a>
+        <a href="#">CGV</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
